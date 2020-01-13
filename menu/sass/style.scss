@@ -1,0 +1,31 @@
+$cor-principal: #ccc;
+$cor-hover: #fff;
+$altura-menu: 40px;
+
+body{
+    margin: 0px;
+}
+#menu{
+    width: 100%;
+    background: red;
+    ul{
+        width: 800px;
+        margin: 0 auto;
+        list-style: none;
+        li{
+            display: inline;
+            a{
+                line-height: 0;
+                padding: $altura-menu/2 15px;
+                display: inline-block;
+                color:#fff;
+                text-decoration: none;
+
+                &:hover, &focus{
+                    background: $cor-hover;
+                    color: $cor-principal;
+                }
+            }
+        }
+    }
+}

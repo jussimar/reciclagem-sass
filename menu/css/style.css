@@ -1,0 +1,23 @@
+body {
+  margin: 0px; }
+
+#menu {
+  width: 100%;
+  background: red; }
+  #menu ul {
+    width: 800px;
+    margin: 0 auto;
+    list-style: none; }
+    #menu ul li {
+      display: inline; }
+      #menu ul li a {
+        line-height: 0;
+        padding: 20px 15px;
+        display: inline-block;
+        color: #fff;
+        text-decoration: none; }
+        #menu ul li a:hover, #menu ul li afocus {
+          background: #fff;
+          color: #ccc; }
+
+/*# sourceMappingURL=style.css.map */
